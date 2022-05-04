@@ -3,9 +3,9 @@ Polling JellyFish API to check value changes
 
 # How to use
 - Create the environment variables
-  - (hardcoded atm) improvement_id The improvement id to track
-  - (hardcoded atm) improvement_slug The improvement slug to track
-  - bearer Your JellyFish token
+  - IMPROVEMENT_ID: The improvement id to track
+  - IMPROVEMENT_SLUG: The improvement slug to track
+  - JF_TOKEN: Your JellyFish token
 
 - Execute `python jf_poll.py`
 
